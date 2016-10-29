@@ -1,0 +1,5 @@
+#ignore viw swap
+*.swp
+
+#ignore cache/
+cache/
