@@ -1,0 +1,47 @@
+/**
+ * exchange-rates__currency.css
+ * 
+ * @author idbolshakov@gmail.com
+ */
+
+/** 
+ * basic section 
+ * 
+ */
+.exchange-rates__currency {
+
+    font-weight: bold;
+
+    text-align: center;
+}
+
+.exchange-rates__currency:before,
+.exchange-rates__currency:after {
+
+    font-weight: normal;
+
+    color: #FFAB7F;
+}
+
+/** 
+ * mobile section 
+ */
+@media  (min-width: 320px) and (max-width: 479px) {
+
+}
+
+/**
+ * tablet section 
+ *
+ */
+@media (min-width: 480px) and (max-width: 768px) {
+
+}
+
+/** 
+ * desktop seciton 
+ *
+ */
+@media (min-width: 768px) {
+
+}

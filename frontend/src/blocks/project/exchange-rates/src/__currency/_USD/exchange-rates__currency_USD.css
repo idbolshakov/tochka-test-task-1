@@ -1,0 +1,38 @@
+/**
+ * exchange-rates__currency_USD.css
+ * 
+ * @author idbolshakov@gmail.com
+ */
+
+/** 
+ * basic section 
+ * 
+ */
+.exchange-rates__currency_USD:before {
+
+    content: '$';
+}
+
+
+/** 
+ * mobile section 
+ */
+@media  (min-width: 320px) and (max-width: 479px) {
+
+}
+
+/**
+ * tablet section 
+ *
+ */
+@media (min-width: 480px) and (max-width: 768px) {
+
+}
+
+/** 
+ * desktop seciton 
+ *
+ */
+@media (min-width: 768px) {
+
+}

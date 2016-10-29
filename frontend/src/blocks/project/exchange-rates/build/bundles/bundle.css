@@ -1,0 +1,192 @@
+/**
+ * exchange-rates.css
+ * 
+ * @author idbolshakov@gmail.com
+ */
+
+/** 
+ * basic section 
+ * 
+ */
+html, body { margin: 0; padding: 0; height: 100%}
+
+.exchange-rates * { font-family: Sans;}
+
+.exchange-rates {
+
+    box-sizing: border-box;
+
+    display: block;
+
+    width: 100%;
+    height: 100%;
+
+    min-width: 70px;
+
+    background: #6666ff;
+    color: #fff;
+
+    padding-top: .5rem;
+}
+
+/** 
+ * mobile section 
+ */
+@media  (min-width: 320px) and (max-width: 479px) {
+
+    .exchange-rates {
+
+        font-size: 4rem;
+        line-height: 6rem;
+    }
+}
+
+/**
+ * tablet section 
+ *
+ */
+@media (min-width: 480px) and (max-width: 768px) {
+
+    .exchange-rates {
+
+        font-size: 7rem;
+        line-height: 9rem;
+    }
+
+}
+
+/** 
+ * desktop seciton 
+ *
+ */
+@media (min-width: 768px) {
+
+    .exchange-rates {
+
+        font-size: 10rem;
+        line-height: 12rem;
+    }
+
+}
+/**
+ * exchange-rates__currency.css
+ * 
+ * @author idbolshakov@gmail.com
+ */
+
+/** 
+ * basic section 
+ * 
+ */
+.exchange-rates__currency {
+
+    font-weight: bold;
+
+    text-align: center;
+}
+
+.exchange-rates__currency:before,
+.exchange-rates__currency:after {
+
+    font-weight: normal;
+
+    color: #FFAB7F;
+}
+
+/** 
+ * mobile section 
+ */
+@media  (min-width: 320px) and (max-width: 479px) {
+
+}
+
+/**
+ * tablet section 
+ *
+ */
+@media (min-width: 480px) and (max-width: 768px) {
+
+}
+
+/** 
+ * desktop seciton 
+ *
+ */
+@media (min-width: 768px) {
+
+}
+/**
+ * exchange-rates__currency_USD.css
+ * 
+ * @author idbolshakov@gmail.com
+ */
+
+/** 
+ * basic section 
+ * 
+ */
+.exchange-rates__currency_USD:before {
+
+    content: '$';
+}
+
+
+/** 
+ * mobile section 
+ */
+@media  (min-width: 320px) and (max-width: 479px) {
+
+}
+
+/**
+ * tablet section 
+ *
+ */
+@media (min-width: 480px) and (max-width: 768px) {
+
+}
+
+/** 
+ * desktop seciton 
+ *
+ */
+@media (min-width: 768px) {
+
+}
+/**
+ * exchange-rates__currency_EUR.css
+ * 
+ * @author idbolshakov@gmail.com
+ */
+
+/** 
+ * basic section 
+ * 
+ */
+.exchange-rates__currency_EUR:before {
+
+    content: '€';
+}
+
+/** 
+ * mobile section 
+ */
+@media  (min-width: 320px) and (max-width: 479px) {
+
+}
+
+/**
+ * tablet section 
+ *
+ */
+@media (min-width: 480px) and (max-width: 768px) {
+
+}
+
+/** 
+ * desktop seciton 
+ *
+ */
+@media (min-width: 768px) {
+
+}
