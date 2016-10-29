@@ -2,4 +2,4 @@
 *.swp
 
 #ignore cache/
-backend/cache/
+backend/cache/*
