@@ -17,6 +17,7 @@ class View {
      * отвечает за фомирование
      * HTTP ответа сервиса
      *
+     * @return {string} - тело http ответа
      */
     public static function getHttpResponse($body) {
  
